@@ -118,7 +118,7 @@ def group_files(
 
 def main():
     # 1) Base directory
-    directory = Path("/home/andy/Documents/Morningstar-March-2025/")
+    directory = Path("/home/andrew/Documents/Morningstar-March-2026/")
     if not directory.is_dir():
         logging.error("Directory %s does not exist!", directory)
         return
